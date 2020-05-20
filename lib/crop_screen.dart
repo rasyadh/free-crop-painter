@@ -43,7 +43,7 @@ class _CropScreenState extends State<CropScreen> {
   }
 
   Future<Null> initImage() async {
-    final ByteData data = await rootBundle.load('images/danilla.jpg');
+    final ByteData data = await rootBundle.load('assets/images/danilla.jpg');
     image = await loadImage(Uint8List.view(data.buffer));
   }
 

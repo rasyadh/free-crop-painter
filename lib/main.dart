@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:free_crop/home_screen.dart';
+import 'package:free_crop/pick_frame_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomeScreen(),
+      home: PickFrameScreen(),
     );
   }
 }
